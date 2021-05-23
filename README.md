@@ -20,6 +20,11 @@ pass html  to docx
 python3 Nsfocus2docx  /path/to/NS_report/index.html
 ```
 
+## 已知Bug
 
+` doc.render(data) `渲染数据时，
+- 199个漏洞，只能渲染89个，
+- 1362个漏洞只能渲染出639个
 
+欢迎For，PR
 
